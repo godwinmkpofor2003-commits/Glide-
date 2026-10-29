@@ -131,4 +131,10 @@ textarea{
     justify-content:space-between;
     padding:0 20px 10px;
 }
- 
+ .him{
+     border-width:1px;
+     border-style:solid;
+     border-color:#DCDCDC;
+     border-radius:30px;
+     background-color:white;
+ }
