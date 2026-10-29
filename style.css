@@ -82,10 +82,53 @@ main{
     display: flex;
     align-items: center;
     padding: 25px;
+      border-top-right-radius:15px;
+    border-top-right-radius:15px;
 
 }
-#left >div{
+.mr-flex{
     display: flex;
     flex-direction: column;
     gap: 25px;
+    Margin-left:50px;
+    Margin-right:60px;
+    
 }
+
+.mr-flex h1{
+    font-weight:2.4rem;
+    line-height:1.1;
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.broke {
+    color:#5E5E5C;
+    font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.money {
+    color:#5E5E5C;
+    font-weight:bold;
+    
+}
+textarea{ 
+    width:100%;
+    resize:none;
+    border:none;
+    outline:none;
+    padding:0 10px;
+    font-size:1.2rem;
+    font-family:"Rubik storm",sans-serif;
+    
+}
+#left > div > div >div {
+    display:flex;
+    background-color:white;
+    justify-content:space-between;
+    padding:0 20px 10px;
+}
+ 
