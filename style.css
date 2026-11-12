@@ -42,7 +42,7 @@ li a {
 
 }
 
-.pot {
+.pot{
     border: 0;
     background-color: inherit;
     font-weight: 20px;
@@ -62,6 +62,7 @@ li a {
     background-color: #171715;
     color: #fff;
     font-weight: 550;
+    transition:background 0.3s ease;
 
 }
 
@@ -182,4 +183,15 @@ ul {
 h1 {
     font-size: 1rem;
 }
+}
+.plate:hover {
+    background: #861400;
+    transform:scale (1.o8)
+}
+.plate:active {
+    background: #233452;
+    transform:rotate(5deg) ;
+}  
+.pot:focus{
+    border: 5px solid red;
 }
