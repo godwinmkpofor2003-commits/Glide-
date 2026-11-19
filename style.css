@@ -31,6 +31,17 @@ ul {
     list-style-type: none;
     gap: 40px;
     align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    border: 0;
+    background-color: inherit;
+    color: #fff;
+    font-weight: 550;
+    transition-duration: 2s;
+    transition-property: opacity;
+    transition-timing-function: ease;
+
+
 
 }
 
@@ -40,10 +51,17 @@ li a {
     text-transform: capitalize;
     font-family: "Playwrite AR Guides", cursive;
     font-weight: bold;
+    padding: 8px 16px;
+    /* Adds space around the text so the background looks clean */
+    border-radius: 8px;
+    /* Rounds the corners */
+    display: inline-block;
+    /* Ensures padding and border-radius work properly */
+    transition: all 0.3s ease;
 
 }
 
-.pot{
+.pot {
     border: 0;
     background-color: inherit;
     font-weight: 20px;
@@ -63,7 +81,7 @@ li a {
     background-color: #171715;
     color: #fff;
     font-weight: 550;
-    transition:background 0.3s ease;
+    transition: background 0.3s ease;
 
 }
 
@@ -163,36 +181,55 @@ textarea {
         gap: 50px;
     }
 
-    
-main {
-    margin-top: 120px;
-}
-ul {
-    display: none;
-    list-style-type: none;
-    gap: 12px;
 
+    main {
+        margin-top: 120px;
+    }
+
+    ul {
+        display: none;
+        list-style-type: none;
+        gap: 12px;
+
+    }
+
+    .uwa {
+        display: none;
+    }
 }
-.uwa{display: none;
+
+@media(max-width:767px) {
+    #left>div {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
 }
-}
-@media(max-width:767px){ 
-#left >div {
-    margin-left: 5px;
-    margin-right: 5px;
-}
-h1 {
-    font-size: 1rem;
-}
-}
+
 .plate:hover {
     background: #861400;
-    transform:scale (1.o8)
+    transform: scale (1.o8)
 }
+
 .plate:active {
     background: #233452;
-    transform:rotate(5deg) ;
-}  
-.pot:focus{
+    transform: rotate(5deg);
+}
+
+.pot:focus {
     border: 5px solid red;
+}
+
+li :hover {
+    font-weight: 300;
+    color: #464646;
+    background-color: #c9c5c5;
+    transform: scale(1.2);
+}
+
+li a:active {
+    background-color: #171715;
 }
