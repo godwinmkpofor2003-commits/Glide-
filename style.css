@@ -52,11 +52,8 @@ li a {
     font-family: "Playwrite AR Guides", cursive;
     font-weight: bold;
     padding: 8px 16px;
-    /* Adds space around the text so the background looks clean */
     border-radius: 8px;
-    /* Rounds the corners */
     display: inline-block;
-    /* Ensures padding and border-radius work properly */
     transition: all 0.3s ease;
 
 }
